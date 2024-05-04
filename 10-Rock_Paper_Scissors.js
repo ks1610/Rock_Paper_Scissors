@@ -87,7 +87,7 @@ let score = JSON.parse(localStorage.getItem
                 <p class = "user">You picked <img class = "_move" src="Image/${user}.png"></p> 
                 ||<p class = "computer"> Computer picked <img class = "_move" src="Image/${cmpter}.png"></p>
                 </div>`;
-            //`You picked ${user} || Computer picked ${cmpter}`;
+            //`You picked ${user}||Computer picked ${cmpter}`;
 
         document.querySelector('.js-score')
             .innerHTML = `Win: ${score.win}, Lose: ${score.lose}, Tie: ${score.tie}`;
