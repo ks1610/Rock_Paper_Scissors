@@ -64,11 +64,11 @@ button:hover{
     flex-wrap: wrap;
 }
 
-.status{
+/*.status{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-}
+}*/
 ._move{
     width: 100px;
     height: 100px;
