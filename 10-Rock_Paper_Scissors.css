@@ -10,10 +10,9 @@ body{
     height: 100%;
 }
 
-.game_name {
+.game_name{
     text-align: center;
     font-size: 100px;
-    margin: 50px 0px 30px 0px;
 }
 
 img{
@@ -64,10 +63,22 @@ button:hover{
     align-items: center;
     flex-wrap: wrap;
 }
+
+.status{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
 ._move{
     width: 100px;
     height: 100px;
 }
+.user, .computer{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .button_reset{
     display: flex;
     align-items: center;
