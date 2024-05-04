@@ -12,14 +12,13 @@ body{
 
 .game_name{
     text-align: center;
-    font-size: 50px;
+    font-size: 100px;
 }
 
 img{
-    max-width: 130px; /* Ensures the image doesn't exceed its container */
-    height: 120px; /* Allows the image to maintain its aspect ratio */
+    max-width: 250px; /* Ensures the image doesn't exceed its container */
+    height: 190px; /* Allows the image to maintain its aspect ratio */
     display: block; /* Ensures proper rendering */
-    margin: 0 auto; /* Centers the image horizontally */
     border-color: rgb(248, 141, 0);
 
 }
@@ -35,11 +34,15 @@ button:hover{
     background-color: transparent;
     border: 5px solid #fafafa;
     border-radius: 55px;
-    margin-right: 10px;
+    margin: 25px;
 }
 
 .User_choose{
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .anounce_section{
     display: flex;
@@ -50,7 +53,7 @@ button:hover{
     height: 100%; 
 }
 .js-result, .js-moved, .js-score{
-    font-size: 20px;
+    font-size: 58px;
     font-weight: bold;
     margin-top: 0px;
     margin-bottom: 15px;  
@@ -58,10 +61,11 @@ button:hover{
 .js-moved{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 ._move{
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
 }
 .button_reset{
     display: flex;
@@ -69,11 +73,12 @@ button:hover{
     justify-content: center;
 }
 .choose_reset{
-    padding: 10px 20px;
+    margin-top: 30px;
+    padding: 20px 40px;
     border-radius: 50px;
     background-color: rgb(181, 206, 228);
     border: none;
     color: #070707;
-    font-size: 24px;
+    font-size: 54px;
     font-weight: bold;
 }
