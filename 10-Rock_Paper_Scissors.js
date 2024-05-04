@@ -83,7 +83,10 @@ let score = JSON.parse(localStorage.getItem
             .innerHTML = result;
 
         document.querySelector('.js-moved')
-            .innerHTML = `You picked <img class = "_move" src="Image/${user}.png"> || Computer picked <img class = "_move" src="Image/${cmpter}.png">`;
+            .innerHTML = `<div class = "status">
+                <p class = "user">You picked <img class = "_move" src="Image/${user}.png"></p> 
+                ||<p class = "computer"> Computer picked <img class = "_move" src="Image/${cmpter}.png"></p>
+                </div>`;
             //`You picked ${user} || Computer picked ${cmpter}`;
 
         document.querySelector('.js-score')
