@@ -20,7 +20,7 @@ img{
     height: 190px; /* Allows the image to maintain its aspect ratio */
     display: block; /* Ensures proper rendering */
     border-color: rgb(248, 141, 0);
-
+    border-radius: 55px;
 }
 button{
     cursor: pointer;
